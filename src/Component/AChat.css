@@ -1,0 +1,22 @@
+@media (max-width:901px) {
+   /*  .achat{
+        width: 350px;
+    }
+     */
+     .installDesc{
+        display: block;
+        text-align: left;
+
+     }
+     .fraudInstall{
+        padding: 5px 20px;
+     }
+     .organic{
+        margin: 0;
+        padding: 15px;
+     }
+}
+
+
+
+

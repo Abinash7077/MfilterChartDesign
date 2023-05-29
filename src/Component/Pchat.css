@@ -1,0 +1,28 @@
+
+@media (max-width:901px) {
+    .fraudDesc{
+        width: 70%;
+        gap: 25px;
+    }
+    .pchart{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        float: right;
+        padding-right: 150px;
+    }
+}
+@media (max-width:405px) {
+    .fraudDesc{
+        width: 70%;
+        gap: 25px;
+    }
+    .pchart{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        float: right;
+        padding-right: 50px;
+    }
+}
+
