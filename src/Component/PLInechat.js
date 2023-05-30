@@ -45,7 +45,8 @@ const PLInechat = () => {
       ];
   return (
     <>
-    <div className=" w-full pline heading pt-4 pb-2 ml-4 flex items-center justify-between ">
+    <div className=" w-full
+     pline heading pt-4 pb-2 ml-4 flex items-center justify-between ">
         <div className="">
         <p className='text-[14px] text-left font-bold  '>
         Distribution Fraud <span className='text-[12px] font-semibold'>Over Date</span>
