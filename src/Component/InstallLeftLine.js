@@ -54,7 +54,7 @@ const InstallLeftLine = () => {
         >
           <CartesianGrid horizontal="true" vertical=""  />
           <XAxis dataKey="name" angle={-45} fontSize={10} fontWeight="bold" />
-          <YAxis type="number" domain={[0,100]} label={{ value: '', angle: -90, position: 'insideLeft' }} fontSize={13}  fontWeight="bold" />
+          <YAxis type="number" domain={[0,100]} label={{ value: '', angle: -90, position: 'insideLeft' }} fontSize={13}  fontWeight="bold" tickFormatter={(tick) => { return `${tick}%`; }} />
           <Tooltip />
           
           <Bar dataKey="amt"  barSize={15} fontSize={11} fill="#19AE54"><LabelList dataKey="amt" position="top" fontSize={12} fontWeight="bold" fontFamily='sansSerif' /></Bar>

@@ -54,10 +54,10 @@ const FraudulentChat = () => {
         >
           <CartesianGrid horizontal="true" vertical=""  />
           <XAxis dataKey="name" angle={-45} fontSize={10} fontWeight="bold" />
-          <YAxis type="number" domain={[0,100]} label={{ value: '', angle: -90, position: 'insideLeft' }} fontSize={13} fontWeight="bold"  />
+          <YAxis type="number" domain={[0,100]} label={{ value: '', angle: -90, position: 'insideLeft' }} fontSize={13} fontWeight="bold" tickFormatter={(tick) => { return `${tick}%`; }}  />
           <Tooltip />
           
-          <Bar dataKey="amt"  barSize={15} fontSize={11} fill="#f02f11"><LabelList dataKey="amt" position="top" fontSize={11} fontFamily='sansSerif' fontWeight="bold" /></Bar>
+          <Bar dataKey="amt"  barSize={15} fontSize={11} fill="#f02f11"><LabelList dataKey="amt" position="top" fontSize={11} fontFamily='sansSerif' fontWeight="bold"  /></Bar>
         
         </BarChart>
       </ResponsiveContainer>

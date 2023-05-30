@@ -4,7 +4,7 @@ import FraudulentInstall from './RightInstall/FraudulentInstall';
 
 const MainLineChat = () => {
   return (
-    <div className='flex border-2 rounded-tr-[10px]  items-center pl-2 w-full justify-between   '>
+    <div className='hover:bg-slate-100 flex border-2 rounded-tr-[10px]  items-center pl-2 w-full justify-between flex-wrap  '>
      <CleanInstall/>
      <FraudulentInstall/>
 

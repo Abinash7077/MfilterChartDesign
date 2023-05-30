@@ -10,6 +10,7 @@ import {
     Area
   } from "recharts";
 import MainLineChat from './MainLineChat';
+import TotalInstallFraud from './TotalInstallFraud';
 const AChat = () => {
     const data = [
         {
@@ -45,9 +46,9 @@ const AChat = () => {
         
       ];
   return (
-    <div className='flex flex-col w-[49%]  h-fit'>
+    <div className='flex flex-col w-[49%] Achat h-fit'>
    
-    <div className=" achat hover:bg-gray-100 w-full h-fit min-w-[350px]  px-2 py-2 border-2 rounded-br-[10px] border-solid border-gray-500 lg:min-h-[510px]">
+    <div className=" achat hover:bg-gray-100 w-full h-fit min-w-[350px]  px-2 py-2 border-2 rounded-br-[10px]  lg:min-h-[510px]">
     <h1 className="tex=xt-center pb-6 pt-4">Total Installs vs Fraudulent Installs</h1>
   <ResponsiveContainer width="100%" height={250} >
     <AreaChart
@@ -115,6 +116,8 @@ const AChat = () => {
  
 </div>
 <MainLineChat/>
+<TotalInstallFraud/>
+
 </div>
   );
 }

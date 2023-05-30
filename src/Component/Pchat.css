@@ -22,7 +22,16 @@
         align-items: center;
         justify-content: center;
         float: right;
+        width: 250px;
+        height: 250px;
         padding-right: 50px;
+    }
+    .pie{
+        width: 250px;
+        height: 250px;
+    }
+    .ptop{
+        width: 100%;
     }
 }
 
