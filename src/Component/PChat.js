@@ -2,6 +2,7 @@ import React from 'react';
 import { PieChart, Pie, Sector, Cell, ResponsiveContainer } from 'recharts';
 import './Pchat.css'
 import Table from './Table';
+
 import PLInechat from './PLInechat';
 
 
@@ -21,7 +22,7 @@ const PChat = () => {
     <div className="ptop flex flex-col w-[49%]  h-fit ">
 
    
-    <div className="hover:bg-slate-100 w-full  h-full  min-w-[350px] md:gap-4 border-2  min-h-[540px] rounded-bl-[10px] pt-4 px-1 box-border ">
+    <div className="hover:bg-slate-100 w-full  h-full  min-w-[320px] md:gap-4 border-2  min-h-[540px] rounded-bl-[10px] pt-4 px-1 box-border ">
            <div className="mx-auto w-[50%] ">
             <div className="flex fraudDesc items-center justify-between gap-16 font-sans">
                 <p className='font-sans font-semibold text-md'>Fraud Categories</p>
